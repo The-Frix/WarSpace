@@ -92,7 +92,7 @@ async function getUser(username = "") {
             code: 'warspacetest',      // Contract that we target
             scope: 'warspacetest',         // Account that owns the data
             table: 'accounts',        // Table name
-            limit: 10,                // Maximum number of rows that we want to get
+            limit: 100,                // Maximum number of rows that we want to get
             reverse: false,           // Optional: Get reversed data
             show_payer: false          // Optional: Show ram payer
         });
